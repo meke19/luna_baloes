@@ -35,10 +35,10 @@
     background-image: url(./img/bg-2.png);
 }
 .bg-img2 {
-    background-image: url(./img/bg-3.png);
+    background-image: url(./img/bg_10.png);
 }
 .carousel-img {
-    
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
