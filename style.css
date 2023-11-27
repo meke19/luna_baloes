@@ -5,12 +5,37 @@
 .nav-link:hover {
     color: rgb(178, 70, 165);
 }
+.dropdown-item {
+ font-size: 1px;
+}
+.section-title {
+    color: #fff;
+    background-color: #df85a8;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 12px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 40px;
+}
+.section-title-2 {
+    color: #fff;
+    background-color: #df85a8;
+    font-weight: bold;
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Fredoka', sans-serif;
+
+    font-size: 40px;
+    border-radius: 12px;
+}
 .card-title {
     color: rgb(156, 69, 139);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-family: 'Fredoka', sans-serif;
+
 }
 .card-title-care {
     color: rgb(156, 69, 139);
+    font-family: 'Fredoka', sans-serif;
 }
 .btn {
     border: solid 1px rgb(156, 69, 139);
@@ -29,8 +54,11 @@
 }
 .section-padding {
     padding: 100px 0;
-}
 
+}
+.self-2 {
+    background-color: #f4ebef;
+}
 .bg-img1 {
     background-image: url(./img/bg-2.png);
 }
@@ -76,17 +104,32 @@
     color: rgb(156, 69, 139);
 }
 .self {
-    font-size: 1em;
+    font-size: 15px;
+    text-transform: lowercase;
+}
+.insta-icon {
+    font-size: 35px;
+    text-transform: lowercase;
+}
+.social-title {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 30px;
+    color: rgb(156, 69, 139);
+}
+.social-desc {
+    font-family: 'Lato', sans-serif;
+
 }
 .folow-us {
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     font-size: 2.5em;
     color: rgb(156, 69, 139);
 }
 .folow-btn {
     color:  rgb(156, 69, 139);
     text-transform: uppercase;
+    
 }
 .meet-us {
     font-weight: bold;
@@ -130,7 +173,10 @@
 @media (max-width: 576px) {
     .general {
         text-align: center;
-        flex-direction: column-reverse;
+        font-size: 10px;
+    }
+    .self {
+        font-size: 1em;
     }
     .about-container {
         margin-bottom: 2em;
@@ -144,5 +190,21 @@
     .carousel-control-prev,
     .carousel-control-next {
         display: none;
+    }
+    .section-title-2 {
+        font-size: 25px;
+        /* background-color: #fff;
+        color: #df85a8; */
+        background-color: #df85a8;
+        color: #fff;
+        border-radius: 12px;
+    }
+    .section-title {
+        font-size: 27px;
+        /* background-color: #fff;
+        color: #df85a8; */
+        background-color: #df85a8;
+        color: #fff;
+        border-radius: 12px;
     }
 }
