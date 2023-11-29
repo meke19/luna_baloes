@@ -34,7 +34,7 @@
 
 }
 .card-title-care {
-    color: rgb(156, 69, 139);
+    color: #4a4444;
     font-family: 'Fredoka', sans-serif;
 }
 .btn {
@@ -48,22 +48,30 @@
 .about-img {
     border: solid 3px rgb(156, 69, 139);
 }
+.about {
+    padding: 100px 0 ;
+}
 
 .navbar-brand img{
     width: 90px;
 }
 .section-padding {
-    padding: 100px 0;
-
+    padding: 100px 0 ;
+}
+.portfolio {
+    padding: 100px 0 90px 0 ;
 }
 .self-2 {
     background-color: #f4ebef;
 }
 .bg-img1 {
-    background-image: url(./img/bg-2.png);
+    background-image: url(./img/2024.png);
 }
 .bg-img2 {
-    background-image: url(./img/bg_10.png);
+    background-image: url(./img/natal\ bege.png);
+}
+.bg-img3 {
+    background-image: url(./img/FUNDO\ LUNA\ \(3\).png);
 }
 .carousel-img {
     height: 100vh;
@@ -103,6 +111,15 @@
     font-size: 4em;
     color: rgb(156, 69, 139);
 }
+.ballonn-1 {
+    color: #035676;
+}
+.ballonn-2 {
+    color: rgb(234, 86, 204);
+}
+.ballonn-3 {
+    color: rgb(224, 220, 15);
+}
 .self {
     font-size: 15px;
     text-transform: lowercase;
@@ -134,6 +151,7 @@
 .meet-us {
     font-weight: bold;
     color: gray;
+    
 }
 
 
@@ -149,6 +167,18 @@
 }
 #card-care {
     margin-bottom: 1.1em;
+}
+.card-care-color {
+    background-color: #d6edf2;
+}
+.card-care-color-2 {
+    background-color: rgb(255, 236, 252);
+}
+.card-care-color-3 {
+    background-color: rgb(254, 249, 219);
+}
+.services {
+    padding: 0 0 100px 0;
 }
 .footer {
     background-color: rgb(156, 69, 139);
@@ -185,12 +215,21 @@
         background-image: url(./img/responsive_10.png);
     }
     .bg-img2 {
-        background-image: url(./img/responsive_6.png);
+        background-image: url(./img/mobile_img/mobile_imgoficial.png);
     }
-    .carousel-control-prev,
+    .bg-img3 {
+        background-image: url(./img/mobile_img/mobile_img4.png);
+    }
+    .carousel {
+        padding-bottom: -1210px;
+    }
+    .social-desc {
+        font-size: 13px;
+    }
+    /* .carousel-control-prev,
     .carousel-control-next {
         display: none;
-    }
+    } */
     .section-title-2 {
         font-size: 25px;
         /* background-color: #fff;
@@ -206,5 +245,8 @@
         background-color: #df85a8;
         color: #fff;
         border-radius: 12px;
+    }
+    .meet-us {
+        font-size: 15px;
     }
 }
